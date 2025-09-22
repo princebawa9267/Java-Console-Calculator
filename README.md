@@ -20,9 +20,11 @@ This program demonstrates modular design by separating calculation logic into a 
 ---
 
 ## 📂 Project Structure
-.
+
 ├── Main.java # Handles user input and menu system
+
 ├── CalculationTask.java # Contains methods for arithmetic operations
+
 └── README.md # Project documentation
 
 
@@ -70,5 +72,6 @@ Enter second number: 8
 - **Conditionals**: `if-else` used for square root & exit handling.
 - **Loops**: `do-while` used to repeat the menu until exit.
 - **I/O**: `Scanner` is used for user input.
+
 
 
