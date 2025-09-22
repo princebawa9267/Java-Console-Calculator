@@ -74,4 +74,16 @@ Enter second number: 8
 - **I/O**: `Scanner` is used for user input.
 
 
+## ⚠️ Note About InputMismatchException
+While using this calculator, you may encounter the following error if you try to run the program **again without exiting the previous instance**:
+
+Exception in thread "main" java.util.InputMismatchException
+
+This occurs because the program expects an **integer input** for menu choices, and running multiple instances or providing unexpected input can cause `Scanner.nextInt()` to fail.  
+
+**Solution:**  
+- Always **exit the previous program** properly before running a new instance.  
+- Alternatively, safer input handling using `Scanner.nextLine()` and `Integer.parseInt()` can prevent this issue.  
+
+💡 This solution was provided with the help of **ChatGPT** to improve the robustness of the program.
 
